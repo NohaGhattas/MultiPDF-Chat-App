@@ -18,8 +18,22 @@ The application follows a structured RAG (Retrieval-Augmented Generation) workfl
 5. **Contextual Querying:** When you ask a question, the app searches the FAISS index to extract the most semantically relevant text chunks.
 6. **Response Generation:** The selected chunks, along with your chat history, are passed to **Gemini-1.5-Flash** to formulate a natural, accurate response.
 
-![MultiPDF Chat App Diagram](https://i.postimg.cc/NybvrTjV/PDF-Lang-Chain.jpg)
-![MultiPDF Chat App Interface](https://i.postimg.cc/FfGXJcHy/localhost.jpg)
+# MultiPDF Chat App 📚🤖
+
+<img src="https://i.postimg.cc/FfGXJcHy/localhost.jpg" alt="MultiPDF Chat App Interface" width="90%">
+
+## Introduction
+------------
+The MultiPDF Chat App is a powerful Python application that allows you to have an interactive conversation with multiple PDF documents simultaneously. You can ask questions about your documents using natural language, and the application will instantly provide relevant, context-aware responses. 
+
+By leveraging the power of **Google Gemini (1.5 Flash)** and **Google GenAI Embeddings**, the app ensures highly accurate, fast, and completely cost-effective local execution without complex local package constraints.
+
+## How It Works
+------------
+
+<img src="https://i.postimg.cc/NybvrTjV/PDF-Lang-Chain.jpg" alt="MultiPDF Chat App Diagram" width="85%">
+
+The application follows a structured RAG (Retrieval-Augmented Generation) workflow to provide precise answers...
 
 ## Dependencies and Installation
 ----------------------------
