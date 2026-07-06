@@ -18,9 +18,8 @@ The application follows a structured RAG (Retrieval-Augmented Generation) workfl
 5. **Contextual Querying:** When you ask a question, the app searches the FAISS index to extract the most semantically relevant text chunks.
 6. **Response Generation:** The selected chunks, along with your chat history, are passed to **Gemini-1.5-Flash** to formulate a natural, accurate response.
 
-[url=https://postimg.cc/FfGXJcHy][img]https://i.postimg.cc/FfGXJcHy/localhost.jpg[/img][/url]
-
-[url=https://postimg.cc/NybvrTjV][img]https://i.postimg.cc/NybvrTjV/PDF-Lang-Chain.jpg[/img][/url]
+![MultiPDF Chat App Diagram](https://i.postimg.cc/NybvrTjV/PDF-Lang-Chain.jpg)
+![MultiPDF Chat App Interface](https://i.postimg.cc/FfGXJcHy/localhost.jpg)
 
 ## Dependencies and Installation
 ----------------------------
